@@ -1,22 +1,22 @@
 <config>
-   <interface hosts="ConfiguratorA.robotController" names="eth0" address="10.0.0.1" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host2" names="eth0" address="10.0.0.2" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host1" names="eth0" address="10.0.0.3" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.router0" names="eth0" address="10.0.0.4" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host3" names="eth0" address="10.0.0.9" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.router1" names="eth1" address="10.0.0.10" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host4" names="eth0" address="10.0.0.11" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host5" names="eth0" address="10.0.0.12" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.router0" names="eth1" address="10.0.0.17" netmask="255.255.255.252" metric="20"/>
-   <interface hosts="ConfiguratorA.router1" names="eth0" address="10.0.0.18" netmask="255.255.255.252" metric="20"/>
-   <interface hosts="ConfiguratorA.router0" names="eth2" address="10.0.0.21" netmask="255.255.255.252" metric="200"/>
-   <interface hosts="ConfiguratorA.router2" names="eth2" address="10.0.0.22" netmask="255.255.255.252" metric="200"/>
-   <interface hosts="ConfiguratorA.router2" names="eth0" address="10.0.0.25" netmask="255.255.255.252" metric="20"/>
-   <interface hosts="ConfiguratorA.router1" names="eth2" address="10.0.0.26" netmask="255.255.255.252" metric="20"/>
-   <interface hosts="ConfiguratorA.router2" names="eth1" address="10.0.0.33" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host6" names="eth0" address="10.0.0.34" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.host7" names="eth0" address="10.0.0.35" netmask="255.255.255.248" metric="20"/>
-   <interface hosts="ConfiguratorA.robotArm" names="eth0" address="10.0.0.36" netmask="255.255.255.248" metric="20"/>
+   <interface hosts="ConfiguratorA.robotController" names="eth0" address="10.0.0.1" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host2" names="eth0" address="10.0.0.2" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host1" names="eth0" address="10.0.0.3" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.router0" names="eth0" address="10.0.0.4" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host3" names="eth0" address="10.0.0.9" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.router1" names="eth1" address="10.0.0.10" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host4" names="eth0" address="10.0.0.11" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host5" names="eth0" address="10.0.0.12" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.router0" names="eth1" address="10.0.0.17" netmask="255.255.255.252" metric="1"/>
+   <interface hosts="ConfiguratorA.router1" names="eth0" address="10.0.0.18" netmask="255.255.255.252" metric="1"/>
+   <interface hosts="ConfiguratorA.router0" names="eth2" address="10.0.0.21" netmask="255.255.255.252" metric="1"/>
+   <interface hosts="ConfiguratorA.router2" names="eth2" address="10.0.0.22" netmask="255.255.255.252" metric="1"/>
+   <interface hosts="ConfiguratorA.router2" names="eth0" address="10.0.0.25" netmask="255.255.255.252" metric="1"/>
+   <interface hosts="ConfiguratorA.router1" names="eth2" address="10.0.0.26" netmask="255.255.255.252" metric="1"/>
+   <interface hosts="ConfiguratorA.router2" names="eth1" address="10.0.0.33" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host6" names="eth0" address="10.0.0.34" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.host7" names="eth0" address="10.0.0.35" netmask="255.255.255.248" metric="1"/>
+   <interface hosts="ConfiguratorA.robotArm" names="eth0" address="10.0.0.36" netmask="255.255.255.248" metric="1"/>
    <multicast-group hosts="ConfiguratorA.robotController" interfaces="eth0" address="224.0.0.1"/>
    <multicast-group hosts="ConfiguratorA.host2" interfaces="eth0" address="224.0.0.1"/>
    <multicast-group hosts="ConfiguratorA.host1" interfaces="eth0" address="224.0.0.1"/>
